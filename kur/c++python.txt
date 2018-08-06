@@ -1,0 +1,6 @@
+g++ c++python.cpp -o c++python -I/usr/include/python2.7/ -lpython2.7
+
+编译库文件：
+g++ c++python.cpp -fPIC -shared -o libtest.so -I/usr/include/python2.7/ -lpython2.7
+编译执行文件：
+g++ main.cpp -fPIC -L/home/so/cc -ltest -o main
