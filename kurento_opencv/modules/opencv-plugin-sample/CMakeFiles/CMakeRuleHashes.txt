@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+ab5fc811f77c8b2bc3851a0425edad78 src/server/CMakeFiles/js
+b2a7a07d3a2e1d07cb33ed8ed6dd04a0 src/server/CMakeFiles/js_install
+cd2ae8320a28177c86518b6b31f0958b src/server/cpp_interface.generated
+8ce5df763166dbb110522fa11d86581c src/server/cpp_interface_internal.generated
+452c955cfe91b2fd8ac0a54cdcd3b2d6 src/server/cpp_module.generated
+0cee9874831d29a4b6cbe131cd767f6c src/server/cpp_server_internal.generated
+526e3d4f5931f910e9d70627acc21c00 src/server/opencvpluginsample.kmd.json
