@@ -1,0 +1,12 @@
+1：安装kurento-module-scaffold：
+sudo apt-get install kurento-media-server-dev  （安装了opencv和其他一些库）
+
+2.cmake . （注意后面加一点）
+
+make :
+如果有错误 ：
+1 grep -rn CXX_FLAGS .
+2.在没有-fPIC的加上
+
+
+3.出现'boost::filesystem::filesystem_error （把目录移到/home/）
