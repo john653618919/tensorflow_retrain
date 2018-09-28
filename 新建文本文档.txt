@@ -1,0 +1,33 @@
+http://mail.163.com/js6/read/readdata.jsp?sid=cAkBkStEkeGQSxmsyeEEotMWMlgEQkoJ&mid=110:1S2mbhqZzletgebFXgAAsl&part=3&mode=download&l=read&action=download_attach
+
+python retrain.py \
+  --bottleneck_dir=bottlenecks \
+  --how_many_training_steps=500 \
+  --model_dir=inception \
+  --summaries_dir=training_summaries/basic \
+  --output_graph=retrained_graph.pb \
+  --output_labels=retrained_labels.txt \
+  --image_dir=categories
+
+
+python label_image.py <insert_file_path_to_predict_here>
+
+
+
+https://github.com/zhangcliff/tensorflow-c-mnist （c++例子）
+
+https://blog.csdn.net/nicholas_wong/article/details/76474751（按装bazel）
+
+https://blog.csdn.net/zwx1995zwx/article/details/79064064(tensorflow c+ demo)
+
+https://github.com/cyberfire/tensorflow-mtcnn （tensorflow脸部识别）
+
+https://www.cnblogs.com/swey/p/4469722.html （绑定CPU）
+https://www.cnblogs.com/highway-9/p/5494977.html
+
+https://blog.csdn.net/WAN_EXE/article/details/56484664?locationNum=9&fps=1
+https://blog.csdn.net/zengraoli/article/details/70187693（OPENCV多线程）
+
+https://blog.csdn.net/agoni_xiao/article/details/77165428（不同进程内存共享）
+
+C:\Users\DELL\Documents\Tencent Files\653618919\FileRecv

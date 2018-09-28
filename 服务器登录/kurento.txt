@@ -1,0 +1,40 @@
+Kurento媒体服务器（Kurento Media Server ,KMS）必须安装在Ubuntu 14.04 LTS (64 bits)系统上。安装过程中如果遇到一些意料之外的问题，通常重启可以有效解决。
+在终端中键入下列命令：
+
+echo "deb http://ubuntu.kurento.org xenial kms6" | sudo tee /etc/apt/sources.list.d/kurento.list
+wget -O - http://ubuntu.kurento.org/kurento.gpg.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install kurento-media-server-6.0
+Kurento媒体服务器已经安装好了，键入下列命令来启动和停止Kurento媒体服务器：
+
+sudo service kurento-media-server-6.0 start
+sudo service kurento-media-server-6.0 stop
+sudo service kurento-media-server-6.0 restart
+node server.js
+查询 
+sudo netstat -putan | grep kurento
+
+2,安装python2.7
+
+npm start -- --ws_uri=ws://192.168.153.132:8888/kurento
+
+
+
+
+zhouzhihui84 (www6765626)
+144.48.9.90 root(fe7f6eaa67)
+
+https://my.aoyouhost.com/idcSystem.aspx?c=myservice&id=18793
+
+按装出问题
+cd static &&bower install --allow-root
+
+运行npm start
+
+
+电脑网页打开：https://144.48.9.90:6008/
+
+java版本：mvn clean compile exec:java 
+https://144.48.9.90:8443/#
+
+module路径：/usr/lib/x86_64-linux-gnu/kurento/modules
